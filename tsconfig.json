@@ -1,0 +1,20 @@
+{
+    "include": ["./src/**/*"],
+    "compileOnSave": true,
+    "compilerOptions": {
+        "outDir": "./dist",
+        "incremental": true,
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "target": "ES2021",
+        "skipLibCheck": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "preserveConstEnums": true,
+        "declaration": true,
+        "sourceMap": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    }
+}
